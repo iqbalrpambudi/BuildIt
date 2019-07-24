@@ -1,0 +1,82 @@
+﻿<Page x:Class="Build_it.View.ProductPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="491" d:DesignWidth="1016"
+	Title="ProductPage">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="250" Margin="50,0,0,0" VerticalAlignment="Top" Width="966" Background="#e8e8e8">
+            <StackPanel x:Name="MenuItem" Height="182" Orientation="Horizontal" Margin="0,25,0,0" >
+                <DockPanel x:Name="DockPanel1" Height="176" Width="150"  LastChildFill="False" Margin="19,0,0,0">
+                    <Image x:Name="Item1" MouseDown="Item1_Click"  Source="/Build it;component/Asset/cpu/corei7.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+
+                    <Label x:Name="lblItem1" Content="Intel Core i7 8700K" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+                <DockPanel x:Name="Dockpanel2" Height="176" Width="150"  LastChildFill="False" Margin="40,3,0,3">
+                    <Image x:Name="Item2" MouseDown="Item2_Click"  Source="/Build it;component/Asset/cpu/core2duo.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+                    <Label x:Name="lblItem2" Content="Intel Core 2 Duo" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+                <DockPanel x:Name="Dockpanel3" Height="176" Width="150"  LastChildFill="False" Margin="40,3,0,3">
+                    <Image x:Name="Item3" MouseDown="Item3_Click"  Source="/Build it;component/Asset/cpu/ryzen5.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+                    <Label x:Name="lblItem3" Content="AMD Ryzen 5" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+                <DockPanel x:Name="Dockpanel4" Height="176" Width="150"  LastChildFill="False" Margin="40,3,0,3">
+                    <Image x:Name="Item4" MouseDown="Item4_Click"  Source="/Build it;component/Asset/cpu/corei7.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+                    <Label x:Name="lblItem4" Content="Intel Core i7 8700K" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+                <DockPanel x:Name="Dockpanel5" Height="176" Width="150"  LastChildFill="False" Margin="40,3,0,3">
+                    <Image x:Name="Item5" MouseDown="Item5_Click"  Source="/Build it;component/Asset/cpu/core2duo.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+                    <Label x:Name="lblItem5" Content="Intel Core 2 Duo" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="240" Margin="50,251,0,0" VerticalAlignment="Top" Width="966" Background="#e8e8e8">
+            <StackPanel x:Name="MenuItem_Copy" Height="182" Orientation="Horizontal" Margin="0,25,0,0" >
+                <DockPanel x:Name="DockPanel2" Height="176" Width="150"  LastChildFill="False" Margin="19,0,0,0">
+                    <Image x:Name="Item6" MouseDown="Item1_Click"  Source="/Build it;component/Asset/cpu/corei7.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+                    <Label x:Name="lblItem6" Content="Intel Core i7 8700K" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+                <DockPanel x:Name="Dockpanel1" Height="176" Width="150"  LastChildFill="False" Margin="40,3,0,3">
+                    <Image x:Name="Item7" MouseDown="Item2_Click"  Source="/Build it;component/Asset/cpu/core2duo.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+                    <Label x:Name="lblItem7" Content="Intel Core 2 Duo" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+                <DockPanel x:Name="Dockpanel6" Height="176" Width="150"  LastChildFill="False" Margin="40,3,0,3">
+                    <Image x:Name="Item8" MouseDown="Item3_Click"  Source="/Build it;component/Asset/cpu/ryzen5.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+                    <Label x:Name="lblItem8" Content="AMD Ryzen 5" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+                <DockPanel x:Name="Dockpanel7" Height="176" Width="150"  LastChildFill="False" Margin="40,3,0,3">
+                    <Image x:Name="Item9" MouseDown="Item4_Click"  Source="/Build it;component/Asset/cpu/corei7.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+                    <Label x:Name="lblItem9" Content="Intel Core i7 8700K" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+                <DockPanel x:Name="Dockpanel8" Height="176" Width="150"  LastChildFill="False" Margin="40,3,0,3">
+                    <Image x:Name="Item10" MouseDown="Item5_Click"  Source="/Build it;component/Asset/cpu/core2duo.png" Margin="0,0,0,0" DockPanel.Dock="Top" Height="140" Cursor="Hand"/>
+                    <Label x:Name="lblItem10" Content="Intel Core 2 Duo" Height="26" VerticalAlignment="Center" Foreground="Black" Margin="20,0" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" DockPanel.Dock="Bottom" Width="110"/>
+                </DockPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="491" VerticalAlignment="Top" Width="210" Background="White" x:Name="spSideMenu" Margin="-160,0,0,0" Style="{StaticResource spSideMenu}">
+            <DockPanel x:Name="Filter" Height="26" LastChildFill="False"/>
+            <DockPanel x:Name="CPU" Height="64" LastChildFill="False">
+                <Button Content="CPU" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnCpu_Clicked"/>
+            </DockPanel>
+            <DockPanel x:Name="RAM" Height="64" LastChildFill="False">
+                <Button Content="RAM" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnRam_Clicked"/>
+            </DockPanel>
+            <DockPanel x:Name="GPU" Height="64" LastChildFill="False">
+                <Button Content="GPU" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnGpu_Clicked"/>
+            </DockPanel>
+            <DockPanel x:Name="STORAGE" Height="64" LastChildFill="False">
+                <Button Content="HDD" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnHdd_Clicked"/>
+            </DockPanel>
+            <DockPanel x:Name="MOTHERBOARD" Height="64" LastChildFill="False">
+                <Button Content="MOTHERBOARD" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnMobo_Clicked"/>
+            </DockPanel>
+            <DockPanel x:Name="CASE" Height="64" LastChildFill="False">
+                <Button Content="CASE" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnCase_Clicked"/>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,27 @@
+=========tabel cpu=============
+id	nama	vendor	socket	
+
+
+
+==========tabel ram============
+id	nama	vendor	slot
+
+
+==========tabel gpu============
+id	nama	vendor
+
+
+===========tabel hardisk=======
+id	nama	vendor	type
+
+
+===========tabel case==========
+id	nama	vendor	type
+
+
+===========tabel psu===========
+id	nama	vendor	type
+
+
+===========tabel motherboard===
+id	nama	vendor	socket	slot	vga	hddtype	power

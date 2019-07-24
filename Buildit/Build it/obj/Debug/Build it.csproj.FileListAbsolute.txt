@@ -1,0 +1,85 @@
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\bin\Debug\Build it.exe.config
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\bin\Debug\Build it.exe
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\bin\Debug\Build it.pdb
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\Build it.csprojResolveAssemblyReference.cache
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\MainWindow.baml
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\MainWindow.g.cs
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\App.g.cs
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\Build it_MarkupCompile.cache
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\Build it.g.resources
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\Build_it.Properties.Resources.resources
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\Build it.csproj.GenerateResource.Cache
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\Build it.exe
+c:\users\iqbal\documents\visual studio 2012\Projects\Build it\Build it\obj\Debug\Build it.pdb
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\bin\Debug\Build it.exe.config
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\bin\Debug\Build it.exe
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\bin\Debug\Build it.pdb
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\ComparePage.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\ComponentPage.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\Login\MainLoginPage.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\Login\RegisterPage.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\BuildPage.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\ProductPage.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\App.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\ComparePage.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\ComponentPage.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\Login\MainLoginPage.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\Login\RegisterPage.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\BuildPage.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\ProductPage.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\App.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\Build it_MarkupCompile.cache
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\Build it.g.resources
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\Build_it.Properties.Resources.resources
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\Build it.csproj.GenerateResource.Cache
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\Build it.exe
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\Build it.pdb
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\Build it.csprojResolveAssemblyReference.cache
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\UserWindow.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\UserWindow.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\ItemMode.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\ItemMode.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\MainWindow.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\MainWindow.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\HomePage.baml
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\View\HomePage.g.cs
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\bin\Debug\Build it.exe.manifest
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\bin\Debug\Build it.application
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\Build it.exe.manifest
+D:\Document\Amikom\Semester III\Pemrograman Lanjut\Buildit\Build it\obj\Debug\Build it.application
+D:\Buildit\Build it\bin\Debug\Build it.exe.config
+D:\Buildit\Build it\obj\Debug\Build it.exe
+D:\Buildit\Build it\obj\Debug\Build it.pdb
+D:\Buildit\Build it\bin\Debug\Build it.exe.manifest
+D:\Buildit\Build it\bin\Debug\Build it.application
+D:\Buildit\Build it\bin\Debug\Build it.exe
+D:\Buildit\Build it\bin\Debug\Build it.pdb
+D:\Buildit\Build it\obj\Debug\Build it.csprojResolveAssemblyReference.cache
+D:\Buildit\Build it\obj\Debug\View\ComparePage.baml
+D:\Buildit\Build it\obj\Debug\View\ComponentPage.baml
+D:\Buildit\Build it\obj\Debug\View\HomePage.baml
+D:\Buildit\Build it\obj\Debug\View\ItemMode.baml
+D:\Buildit\Build it\obj\Debug\View\Login\MainLoginPage.baml
+D:\Buildit\Build it\obj\Debug\View\Login\RegisterPage.baml
+D:\Buildit\Build it\obj\Debug\View\MainWindow.baml
+D:\Buildit\Build it\obj\Debug\View\BuildPage.baml
+D:\Buildit\Build it\obj\Debug\View\ProductPage.baml
+D:\Buildit\Build it\obj\Debug\View\UserWindow.baml
+D:\Buildit\Build it\obj\Debug\App.baml
+D:\Buildit\Build it\obj\Debug\View\ComparePage.g.cs
+D:\Buildit\Build it\obj\Debug\View\ComponentPage.g.cs
+D:\Buildit\Build it\obj\Debug\View\HomePage.g.cs
+D:\Buildit\Build it\obj\Debug\View\ItemMode.g.cs
+D:\Buildit\Build it\obj\Debug\View\Login\MainLoginPage.g.cs
+D:\Buildit\Build it\obj\Debug\View\Login\RegisterPage.g.cs
+D:\Buildit\Build it\obj\Debug\View\MainWindow.g.cs
+D:\Buildit\Build it\obj\Debug\View\BuildPage.g.cs
+D:\Buildit\Build it\obj\Debug\View\ProductPage.g.cs
+D:\Buildit\Build it\obj\Debug\View\UserWindow.g.cs
+D:\Buildit\Build it\obj\Debug\App.g.cs
+D:\Buildit\Build it\obj\Debug\Build it_MarkupCompile.cache
+D:\Buildit\Build it\obj\Debug\Build it.g.resources
+D:\Buildit\Build it\obj\Debug\Build_it.Properties.Resources.resources
+D:\Buildit\Build it\obj\Debug\Build it.csproj.GenerateResource.Cache
+D:\Buildit\Build it\obj\Debug\Build it.exe.manifest
+D:\Buildit\Build it\obj\Debug\Build it.application

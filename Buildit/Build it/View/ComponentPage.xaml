@@ -1,0 +1,50 @@
+﻿<Page x:Class="Build_it.View.ComponentPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="491" d:DesignWidth="1016"
+	Title="ComponentPage" Background="White">
+
+    <Grid>
+        <StackPanel x:Name="DisplayPanel" HorizontalAlignment="Left" Height="321" Margin="210,0,0,0" VerticalAlignment="Top" Width="473" Background="#e8e8e8">
+            <Image x:Name="displayImage" Height="242" Margin="86,40,86,0"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="491" VerticalAlignment="Top" Width="210" Background="White" x:Name="spSideMenu">
+            <DockPanel x:Name="Filter" Height="26" LastChildFill="False"/>
+            <DockPanel x:Name="CPU" Height="64" LastChildFill="False">
+                <Button Content="CPU" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnCpu"/>
+            </DockPanel>
+            <DockPanel x:Name="RAM" Height="64" LastChildFill="False">
+                <Button Content="RAM" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnRam"/>
+            </DockPanel>
+            <DockPanel x:Name="GPU" Height="64" LastChildFill="False">
+                <Button Content="GPU" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnGpu"/>
+            </DockPanel>
+            <DockPanel x:Name="STORAGE" Height="64" LastChildFill="False">
+                <Button Content="HDD" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnHdd"/>
+            </DockPanel>
+            <DockPanel x:Name="MOTHERBOARD" Height="64" LastChildFill="False">
+                <Button Content="MOTHERBOARD" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnMobo"/>
+            </DockPanel>
+            <DockPanel x:Name="CASE" Height="64" LastChildFill="False">
+                <Button Content="CASE" Height="64" VerticalAlignment="Top" Width="210" BorderThickness="0" Background="White" FontFamily="quicksand" FontSize="16" HorizontalContentAlignment="Left" Padding="30,1,1,1" Click="btnCase"/>
+            </DockPanel>
+        </StackPanel>
+        <StackPanel x:Name="DescriptionPanel" HorizontalAlignment="Left" Height="490" Margin="684,0,-2,0" VerticalAlignment="Top" Width="334">
+            <DockPanel Height="69" LastChildFill="False">
+                <Label x:Name="itemName" Content="" Height="69" VerticalAlignment="Center" Width="286" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="25,0,0,0" FontFamily="Roboto" FontWeight="Medium" FontSize="20"/>
+            </DockPanel>
+            <DockPanel Height="69" LastChildFill="False" Margin="0,0,2,0">
+                <Button Content="Spesifikasi" Height="25" Margin="0,0,226,0" VerticalContentAlignment="Center" DockPanel.Dock="Top" BorderThickness="0" Background="#FF014255" Foreground="White" VerticalAlignment="Center" Click="btnSpesifikasi"/>
+                <Button Content="Deskripsi" Margin="106,-25,108,0" VerticalContentAlignment="Center" DockPanel.Dock="Top" Click="btnDeskripsi" Height="25" BorderThickness="0" Background="#FF014255" Foreground="White" VerticalAlignment="Center"/>
+                <Button Content="Harga" Margin="224,-25,0,0" VerticalContentAlignment="Center" DockPanel.Dock="Top" Click="btnHarga" Height="25" BorderThickness="0" Background="#FF014255" Foreground="White" VerticalAlignment="Center"/>
+                <TextBlock x:Name="txtTextBox" Height="219" Margin="10,8,0,-183" TextWrapping="Wrap"  VerticalAlignment="Top" Width="312" />
+            </DockPanel>
+        </StackPanel>
+        <Image x:Name="item1" MouseDown="item1_Click" HorizontalAlignment="Left" Height="100" Margin="234,339,0,0" VerticalAlignment="Top" Width="100" Cursor="Hand"/>
+        <Image x:Name="item2" MouseDown="item2_Click" HorizontalAlignment="Left" Height="100" Margin="387,339,0,0" VerticalAlignment="Top" Width="100" Cursor="Hand"/>
+        <Image x:Name="item3" MouseDown="item3_Click" HorizontalAlignment="Left" Height="100" Margin="536,339,0,0" VerticalAlignment="Top" Width="100" Cursor="Hand"/>
+    </Grid>
+</Page>

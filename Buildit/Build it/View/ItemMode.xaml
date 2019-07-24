@@ -1,0 +1,38 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Build_it.View.ItemMode"
+        Title="Build It" Height="640" Width="1024" Icon="/Build it;component/Asset/icon.png">
+
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard>
+                <Storyboard>
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity"  From="0" To="1" Duration="0:0:0.5" FillBehavior="HoldEnd" />
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+
+    <Grid>
+        <Canvas Margin="-6,0,6,0">
+            <DockPanel Height="489" LastChildFill="False" Canvas.Left="8" Canvas.Top="120" Width="1014">
+                <Frame x:Name="frmMain" NavigationUIVisibility="Hidden" Source="HomePage.xaml" Width="1013"/>
+            </DockPanel>
+
+
+
+        </Canvas>
+        <Canvas x:Name="Header" Background="SkyBlue" Margin="0,0,0,480">
+            <Image Height="72" VerticalAlignment="Top" Width="232" Source="/Build it;component/Asset/logo.png" RenderTransformOrigin="0.507,0.615" Canvas.Left="2" Canvas.Top="26"/>
+            <Button x:Name="btnBuildMode" Content="Build Mode" Width="106" FontFamily="Quicksand" Background="#FF004B6A" BorderThickness="0" Click="btnBuildMode_Click" FontSize="16" Height="35" Canvas.Left="519" Foreground="White"/>
+            <Button x:Name="btnHome" Content="Home" FontFamily="Quicksand" Background="SkyBlue" BorderThickness="0" Click="btnHome_Click" FontSize="16" Height="27" Canvas.Left="435" Canvas.Top="94" Width="84" HorizontalAlignment="Center"/>
+            <Button x:Name="btnProduct" Content="Product" FontFamily="Quicksand" Background="SkyBlue" BorderThickness="0" Click="btnProduct_Click" FontSize="16" Height="27" Canvas.Left="519" Canvas.Top="94" Width="78" HorizontalAlignment="Center"/>
+            <Button x:Name="btnItemPage" Content="Item Mode" Width="111" FontFamily="Quicksand" Background="#FF3EC996" BorderThickness="0" Click="btnItemMode_Click" FontSize="16" Height="35" Canvas.Left="408" Foreground="White"/>
+            <Label x:Name="lblUsername" Content="Label" Height="38" Width="76" FontFamily="Roboto" FontSize="16" Canvas.Left="917" Canvas.Top="31"/>
+            <Image x:Name="UserImage" MouseDown="UserImage_Click" Height="74" Source="/Build it;component/Asset/user_outline_72990.png" Cursor="Hand" Canvas.Left="824" Width="82" Canvas.Top="21"/>
+            <Button x:Name="btnLogout" Content="Logout" Canvas.Left="914" Canvas.Top="70" Width="59" Background="#FF004B6A" BorderThickness="0" Foreground="White" Height="21" Click="btnLogout_Click" FontFamily="quicksand" Padding="1,0,1,1"/>
+        </Canvas>
+
+    </Grid>
+</Window>

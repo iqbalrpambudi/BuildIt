@@ -1,0 +1,24 @@
+﻿<Window x:Class="Build_it.View.UserWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Build It" Height="447" Width="854.5" Icon="/Build it;component/Asset/icon.png">
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Height="116" Margin="0,-1,0,0" VerticalAlignment="Top" Width="844" Background="SkyBlue">
+            <Image Height="100" Canvas.Left="8" Canvas.Top="8" Width="100" Source="/Build it;component/Asset/user_outline_72990.png"/>
+            <Label x:Name="lblUser" Content="Username" Canvas.Left="113" Canvas.Top="32" FontSize="20" FontWeight="Medium" FontFamily="quicksand"/>
+            <Label x:Name="lblEmail" Content="Email" Canvas.Left="114" Canvas.Top="57" FontFamily="quicksand"/>
+        </Canvas>
+        <DataGrid x:Name="dgvItem" x:Uid="dgKamar" ItemsSource="{Binding}" Height="auto" AutoGenerateColumns="False" SelectedIndex="0" Margin="-6,115,-11,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Path = id_build}" Header="Id Build"/>
+                <DataGridTextColumn Binding="{Binding Path = CPU}" Header="CPU" Width="130" />
+                <DataGridTextColumn Binding="{Binding Path = RAM}" Header="RAM" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Path = GPU}" Header="GPU" Width="120"/>
+                <DataGridTextColumn Binding="{Binding Path = MOTHERBOARD}" Header="MOBO" Width="140"/>
+                <DataGridTextColumn Binding="{Binding Path = HDD}" Header="HDD" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path = CASES}" Header="CASES" Width="100" />
+                <DataGridTextColumn Binding="{Binding Path = HARGA}" Header="PRICE" Width="100" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
